@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Local data
+NekoAICLI/data/notes.json
+NekoAICLI/data/tasks.json
+NekoAICLI/data/settings.json
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+
+# Local data
+**/data/notes.json
+**/data/tasks.json
+**/data/settings.json
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
